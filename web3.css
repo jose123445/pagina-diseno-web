@@ -1,0 +1,105 @@
+body{
+
+       background-image: linear-gradient(135deg
+       ,#fff, #505488, #5A4894, #161569);
+
+       background-size:500%;
+
+       animation: fanimado 10s infinite;
+       
+
+
+
+}
+
+@keyframes fanimado{
+
+                     0%{
+
+                          background-position:0% 50%;
+
+                      }
+
+                       50%{
+
+                             background-position:50% 100%;
+
+                       }
+
+                        100%{
+
+                             background-position:0% 100%;
+
+                         }
+
+}
+
+
+h1 {
+
+       background-color:#808080;
+       color:#f7fbff;
+       border: solid;
+       border-radius: 20px;
+       text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+*{
+
+     padding: 1px;
+     margin: 1px;
+     font-family: 'poppins' , sans-serif;
+}
+
+#header{
+
+         margin: auto;
+         width: 610px;
+}
+
+
+ul, ol{
+
+        list-style: none;
+}
+
+
+.nav li a {
+             background-color: #000;
+             color: red;
+             text-decoration: none;
+             padding:10px 30px;
+             display:block;
+              border-radius: 20px;
+             border-style:solid;
+             border-color:yellow;
+             font-family:algerian;
+
+}
+
+
+.nav > li{
+
+           float: left;
+
+}
+
+
+.nav li a:hover{
+
+
+                  background-color: #696666;
+                  margin-top:-8px;
+
+}
